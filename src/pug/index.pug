@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Grayscale - Start Bootstrap Theme
+        title Chayse McMillan
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container.px-4.px-lg-5
-                a.navbar-brand(href='#page-top') Start Bootstrap
+                a.navbar-brand(href='#page-top') Chayse McMillan
                 button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
@@ -45,57 +45,127 @@ html(lang='en')
             .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
                 .d-flex.justify-content-center
                     .text-center
-                        h1.mx-auto.my-0.text-uppercase Grayscale
-                        h2.text-white-50.mx-auto.mt-2.mb-5 A free, responsive, one page Bootstrap theme created by Start Bootstrap.
-                        a.btn.btn-primary(href='#about') Get Started
+                        h1.mx-auto.my-0.text-uppercase Chayse McMillan
+                        h2.text-white-50.mx-auto.mt-2.mb-5 Elegant Software Creator and Developer Enthusiast.
+                        a.btn.btn-primary(href='#projects') See What I've Been Up To
 
         // About
         section#about.about-section.text-center
             .container.px-4.px-lg-5
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-lg-8
-                        h2.text-white.mb-4 Built with Bootstrap 5
+                        h2.text-white.mb-4 < About Me />
+                        div.sqr(style="--img: url(/assets/img/me3.jpg)")
                         p.text-white-50
-                            | Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on 
-                            a(href='https://startbootstrap.com/theme/grayscale/') the preview page.
-                            | The theme is open source, and you can use it for any purpose, personal or commercial.
-                img.img-fluid(src='assets/img/ipad.png', alt='...')
+                            | I'm a junior developer who's spent the last few years learning the ins and outs of our industry.
+                            | My primary focus is deliverance of optimized, user-friendly experiences for customers and co-workers alike. 
+                            | I'm very fimilar with modern software standards and love developing new code. Describing me as calculated would be
+                            | an understament.
+                            | Below, you'll find few of many diversified projects I've orchestrated on my free time.
+                            br
+                            | What you see here is a work in progress and a first draft at that.
+
+
+
+        // Page Content
+        .container.px-4.px-lg-5
+
+            // Heading Row
+            .row.gx-4.gx-lg-5.align-items-center.my-5
+                .col-lg-7
+                    img.img-fluid.rounded.mb-4.mb-lg-0(src='assets/img/resume1.jpg', alt='...')
+
+                .col-lg-5
+                    h1.font-weight-light Business Name or Tagline
+                    p
+                        | This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!
+                    a.btn.btn-primary(href='#!') Call to Action!
+
+            // Call to Action
+            .card.text-white.bg-secondary.my-5.py-4.text-center
+                .card-body
+                    p.text-white.m-0
+                        | This call to action card is a great place to showcase some important information or display a clever tagline!
+
+            // Content Row
+            .row.gx-4.gx-lg-5
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Card One
+                            p.card-text
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='#!') More Info
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Card Two
+                            p.card-text
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='#!') More Info
+
+                .col-md-4.mb-5
+                    .card.h-100
+                        .card-body
+                            h2.card-title Card Three
+                            p.card-text
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+                        .card-footer
+                            a.btn.btn-primary.btn-sm(href='#!') More Info
+
+
 
         // Projects
         section#projects.projects-section.bg-light
-            .container.px-4.px-lg-5
+            .container.px-4.px-lg-5 
                 // Featured Project Row
                 .row.gx-0.mb-4.mb-lg-5.align-items-center
                     .col-xl-8.col-lg-7
-                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/bg-masthead.jpg', alt='...')
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/resume.png', alt='...')
                     .col-xl-4.col-lg-5
                         .featured-text.text-center.text-lg-left
-                            h4 Shoreline
+                            h4 Canabis Point System
                             p.text-black-50.mb-0
-                                | Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!
+                                | Built with React-Native, C# ASP.net Core (REST API), and MYSQL (AWS S3).
+                                br
+                                br
+                                | Wow... That was a mouthful.
+                                br
+                                br
+                                | The primary purpose of this app is to store points for a user after making in-store purchases.
+                                | After so many points are accumulated, discounts on purchases are avaliable. Admins may also 
+                                | promote special offers!
                 // Project One Row
                 .row.gx-0.mb-5.mb-lg-0.justify-content-center
                     .col-lg-6
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
+                        a(href='https://github.com/McMillanSoftwareSolutions/DynamicWindowsTerminal/blob/main/dynamic_wallpaper.sh' target="_blank")
+                            img.img-fluid(src='assets/img/bashScript.png', alt='...')
                     .col-lg-6
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-left
-                                    h4.text-white Misty
+                                    h4.text-white Dynamic Wallpapers for Windows Terminal WSL
                                     p.mb-0.text-white-50
-                                        | An example of where you can put an image of a project, or anything else, along with a description.
+                                        | You're still using blue screen terminals? This simple bash script I've written can improve your day-to-day
+                                        | quality of life with dynamic terminal wallpapers. Just add the script to your '.bashrc' profile, pick a few of your 
+                                        | favorite pictures, and let the magic happen!
                                     hr.d-none.d-lg-block.mb-0.ms-0
                 // Project Two Row
                 .row.gx-0.justify-content-center
                     .col-lg-6
-                        img.img-fluid(src='assets/img/demo-image-02.jpg', alt='...')
+                        img.img-fluid(src='assets/img/tdAmeritrade.jpg', alt='...')
                     .col-lg-6.order-lg-first
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-right
-                                    h4.text-white Mountains
+                                    h4.text-white TD Ameritrade Auto Investor
                                     p.mb-0.text-white-50
-                                        | Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!
+                                        | Despite lacking a front end, this auto-investor written in Python is highly configurable and versitile. After punching in your login
+                                        | credendials to a file, simply feed the program your desired stocks via a TD Ameritrade Watchlist. If your configured criteria is met, the program will
+                                        | fulfill your closing or opening orders. 
                                     hr.d-none.d-lg-block.mb-0.me-0
 
         // Signup
@@ -103,50 +173,57 @@ html(lang='en')
             .container.px-4.px-lg-5
                 .row.gx-4.gx-lg-5
                     .col-md-10.col-lg-8.mx-auto.text-center
-                        i.far.fa-paper-plane.fa-2x.mb-2.text-white
-                        h2.text-white.mb-5 Subscribe to receive updates!
-                        form.form-signup.d-flex.flex-column.flex-sm-row
-                            input#inputEmail.form-control.flex-fill.me-0.me-sm-2.mb-3.mb-sm-0(type='email', placeholder='Enter email address...')
-                            button.btn.btn-primary(type='submit') Subscribe
+                        //i.far.fa-paper-plane.fa-2x.mb-2.text-white
+                        i.far.fa-handshake.fa-2x.mb-2.text-white
+                        h2.text-white.mb-5 Let's Get In Touch
+                        .social.d-flex.justify-content-center
+                            a.mx-2(href='https://www.linkedin.com/in/chayse-mcmillan/' target="_blank")
+                                i.fab.fa-linkedin
+                            a.mx-2(href='https://www.facebook.com/ChayseMcMillanRealEstate' target="_blank")
+                                i.fab.fa-facebook-f
+                            a.mx-2(href='https://mail.google.com/mail/?view=cm&fs=1&to=mcmillansoftwaresolutions@gmail.com' target="_blank")
+                                i.fab.fa-google
+                            a.mx-2(href='https://github.com/McMillanSoftwareSolutions' target="_blank")
+                                i.fab.fa-github
 
         // Contact
-        section.contact-section.bg-black
-            .container.px-4.px-lg-5
-                .row.gx-4.gx-lg-5
-                    .col-md-4.mb-3.mb-md-0
-                        .card.py-4.h-100
-                            .card-body.text-center
-                                i.fas.fa-map-marked-alt.text-primary.mb-2
-                                h4.text-uppercase.m-0 Address
-                                hr.my-4.mx-auto
-                                .small.text-black-50 4923 Market Street, Orlando FL
-                    .col-md-4.mb-3.mb-md-0
-                        .card.py-4.h-100
-                            .card-body.text-center
-                                i.fas.fa-envelope.text-primary.mb-2
-                                h4.text-uppercase.m-0 Email
-                                hr.my-4.mx-auto
-                                .small.text-black-50
-                                    a(href='#!') hello@yourdomain.com
-                    .col-md-4.mb-3.mb-md-0
-                        .card.py-4.h-100
-                            .card-body.text-center
-                                i.fas.fa-mobile-alt.text-primary.mb-2
-                                h4.text-uppercase.m-0 Phone
-                                hr.my-4.mx-auto
-                                .small.text-black-50 +1 (555) 902-8832
-                .social.d-flex.justify-content-center
-                    a.mx-2(href='#!')
-                        i.fab.fa-twitter
-                    a.mx-2(href='#!')
-                        i.fab.fa-facebook-f
-                    a.mx-2(href='#!')
-                        i.fab.fa-github
+        //- section.contact-section.bg-black
+        //-     .container.px-4.px-lg-5
+        //-         .row.gx-4.gx-lg-5
+        //-             .col-md-4.mb-3.mb-md-0
+        //-                 .card.py-4.h-100
+        //-                     .card-body.text-center
+        //-                         i.fas.fa-map-marked-alt.text-primary.mb-2
+        //-                         h4.text-uppercase.m-0 Address
+        //-                         hr.my-4.mx-auto
+        //-                         .small.text-black-50 4923 Market Street, Orlando FL
+        //-             .col-md-4.mb-3.mb-md-0
+        //-                 .card.py-4.h-100
+        //-                     .card-body.text-center
+        //-                         i.fas.fa-envelope.text-primary.mb-2
+        //-                         h4.text-uppercase.m-0 Email
+        //-                         hr.my-4.mx-auto
+        //-                         .small.text-black-50
+        //-                             a(href='#!') mcmillansoftwaresolutions@gmail.com
+        //-             .col-md-4.mb-3.mb-md-0
+        //-                 .card.py-4.h-100
+        //-                     .card-body.text-center
+        //-                         i.fas.fa-mobile-alt.text-primary.mb-2
+        //-                         h4.text-uppercase.m-0 Phone
+        //-                         hr.my-4.mx-auto
+        //-                         .small.text-black-50 +1 (801) 866-2788
+        //-         .social.d-flex.justify-content-center
+        //-             a.mx-2(href='https://www.linkedin.com/in/chayse-mcmillan/' target="_blank")
+        //-                 i.fab.fa-linkedin
+        //-             a.mx-2(href='https://www.facebook.com/ChayseMcMillanRealEstate' target="_blank")
+        //-                 i.fab.fa-facebook-f
+        //-             a.mx-2(href='https://github.com/McMillanSoftwareSolutions' target="_blank")
+        //-                 i.fab.fa-github
 
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
             .container.px-4.px-lg-5
-                | Copyright &copy; Your Website 2021
+                | Copyright @ 2021 McMillan Software Solutions LLC
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js')
